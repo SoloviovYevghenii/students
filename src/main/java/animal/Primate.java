@@ -1,3 +1,7 @@
+package animal;
+
+import animal.Animal;
+
 public class Primate extends Animal {
   private int numberOfLimbs;
   private int height;

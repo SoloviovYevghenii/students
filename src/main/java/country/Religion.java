@@ -1,8 +1,10 @@
-public class Religion extends Nationality{
-    private String christian;
+package country;
+
+public class Religion extends Nationality {
+    public String christian;
     private String catholicism;
     private String crotestants;
-    private String orthodoxChristianity;
+    protected String orthodoxChristianity;
 
     public String getChristian() {
         return christian;

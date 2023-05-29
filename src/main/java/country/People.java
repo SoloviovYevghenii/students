@@ -1,5 +1,7 @@
+package country;
+
 public abstract class People {
-private  String gender;
+protected   String gender;
 private  String age;
 
     public String getGender() {

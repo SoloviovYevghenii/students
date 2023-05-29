@@ -1,3 +1,7 @@
+package country;
+
+
+
 public class Asia extends Nationality implements Location {
     private  int number;
 

@@ -1,8 +1,11 @@
-public abstract class Nationality extends People{
+package country;
+
+
+public abstract class Nationality extends People {
     private String germans;
-    private String italians;
+    protected String italians;
     private String english;
-    private String finns;
+    public String finns;
 
     public String getGermans() {
         return germans;

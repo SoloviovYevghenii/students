@@ -1,3 +1,5 @@
+package animal;
+
 public abstract class Animal {
     private int age;
     private  boolean isAlive;

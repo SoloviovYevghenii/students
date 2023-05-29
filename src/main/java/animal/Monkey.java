@@ -1,7 +1,9 @@
-public class Monkey extends Primate{
+package animal;
+
+public class Monkey extends Primate {
 
     public  String getVoice(){
-        return "Monkey";
+        return "animal.Monkey";
     }
 
     private String diet;

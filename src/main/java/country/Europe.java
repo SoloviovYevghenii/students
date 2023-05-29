@@ -1,3 +1,5 @@
+package country;
+
 public class Europe extends Nationality {
     private  int number;
 

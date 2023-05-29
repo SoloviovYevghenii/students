@@ -1,4 +1,6 @@
-public interface Quantity extends Location{
+import country.Location;
+
+public interface Quantity extends Location {
 
     int getAge ();
     String getName();
