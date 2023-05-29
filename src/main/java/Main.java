@@ -9,6 +9,11 @@ public class Main {
 
         Asia asia = new Asia();
         asia.setNumber(21);
+
+        QuantityImpl quantity = new QuantityImpl();
+        Wiew wiew = new WiewImpl();
+
+
     }
 
 }

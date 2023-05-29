@@ -1,4 +1,4 @@
-public class Asia extends Nationality {
+public class Asia extends Nationality implements Location {
     private  int number;
 
     public int getNumber() {
@@ -7,5 +7,15 @@ public class Asia extends Nationality {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    @Override
+    public int one() {
+        return 6;
+    }
+
+    @Override
+    public int getLastName() {
+        return 49;
     }
 }

@@ -11,7 +11,6 @@ public class Religion extends Nationality{
     public void setChristian(String christian) {
         this.christian = christian;
     }
-
     public String getCatholicism() {
         return catholicism;
     }
