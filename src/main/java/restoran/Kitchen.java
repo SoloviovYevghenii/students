@@ -1,11 +1,13 @@
-
+package restoran;
 
 import lombok.Data;
+import menu.FoodMenu;
 
 import java.util.List;
 
 @Data
 public class Kitchen {
+
    private List<String> workingStaff;
    private FoodMenu foodMenu;
 

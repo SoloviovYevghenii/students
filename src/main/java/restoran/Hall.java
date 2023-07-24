@@ -1,3 +1,5 @@
+package restoran;
+
 import lombok.Data;
 
 import java.util.List;
