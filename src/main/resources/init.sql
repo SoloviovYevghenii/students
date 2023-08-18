@@ -13,7 +13,7 @@ create table lesson
     id SERIAL PRIMARY key,
     name  varchar,
     updatedAt   varchar,
-    homework_id int,
+    homework_id INT UNIQUE NOT NULL,
     CONSTRAINT fk_homeworks
         FOREIGN KEY (homework_id)
             REFERENCES homeworks (id)
